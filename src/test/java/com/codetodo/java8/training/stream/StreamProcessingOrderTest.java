@@ -15,6 +15,19 @@ public class StreamProcessingOrderTest {
 			System.out.println("filter: " + s);
 			return true;
 		}).forEach(s -> System.out.println("forEach: " + s));
+
+		// The operation anyMatch returns true as soon as the predicate applies
+		// to the given input element. This is true for the second element
+		// passed "A2". Due to the vertical execution of the stream chain, map
+		// has only to be executed twice in this case. So instead of mapping all
+		// elements of the stream, map will be called as few as possible.
+		Stream.of("d2", "a2", "b1", "b3", "c").map(s -> {
+			System.out.println("map: " + s);
+			return s.toUpperCase();
+		}).anyMatch(s -> {
+			System.out.println("anyMatch: " + s);
+			return s.startsWith("A");
+		});
 	}
 
 }
