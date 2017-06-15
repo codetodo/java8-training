@@ -18,7 +18,7 @@ Streams
 Monad
 -----
 
-Un decorator que obedece a ciertas reglas. Permite concatenar llamadas; procesar datos en una secuencia de pasos (tuberias inform�ticas). 
+Un decorator que obedece a ciertas reglas. Permite concatenar llamadas; procesar datos en una secuencia de pasos (tuberias informáticas). 
 Han sido descritas como punto y comas programables. 
 Se comportan como una línea de ensamblaje, en las que un objeto transporta datos entre unidades funcionales que hacen transformaciones en cada paso.
 En programacion funcional es un patron de diseño para construir tipos genéricos.
