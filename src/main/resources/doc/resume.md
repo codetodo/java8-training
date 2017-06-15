@@ -3,9 +3,14 @@
 
 ## Lambda
 
-Instead of using an anonymous class you can use a lambda expression and if this just calls one method, you can use a method reference.
+Otra forma de escribir la implementación de una interfaz menos verbosa, más concisa y fácil de leer. 
 
-Se puede usar como referencia a un método, en la forma Class::instanceMethod, un metodo de instancia
+El tipo donde se usen tiene que ser una Functional Interface.
+
+En lugar de usar una clase anonima se puede usar una expresión lambda y si en ésta sólo se llama a un método entonces se puede usar
+la referencia al método.
+
+Como referencia a un método se puede usar, en la forma Class::instanceMethod, un método de instancia
 de la misma clase que se recibe como parámetro en el método de la functional interface, siempre que retornen el mismo tipo. 
 
 (obj, arg) -> obj.doSomething(arg) 
