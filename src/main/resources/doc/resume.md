@@ -31,7 +31,6 @@ de la cadena es la entrada del próximo. Permiten la comunicació y sincronizaci
 
 ### ¿Que son los Streams?
 
-
 Los Stream en Java 8 son monadas. Un Stream representa una secuencia de elementos y diferentes tipos de operaciones a aplicar sobre estos elementos.
 
 Pueden ser intermediate (return a stream) o terminal (void or return a non-stream result).
