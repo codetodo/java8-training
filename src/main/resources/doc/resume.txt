@@ -7,7 +7,8 @@ Lambda
 
 Instead of using an anonymous class you can use a lambda expression and if this just calls one method, you can use a method reference.
 
-Se puede usar como referencia a un m�todo, en la forma Class::instanceMethod, un metodo de instancia de la misma clase que se recibe como par�metro en el m�todo de la functional interface, siempre que retornen el mismo tipo. 
+Se puede usar como referencia a un método, en la forma Class::instanceMethod, un metodo de instancia
+de la misma clase que se recibe como parámetro en el m�todo de la functional interface, siempre que retornen el mismo tipo. 
 
 (obj, arg) -> obj.doSomething(arg) 
 
@@ -17,11 +18,13 @@ Streams
 Monad
 -----
 
-Un decorator que obedece a ciertas reglas. Permite concatenar llamadas; procesar datos en una secuencia de pasos (tuberias inform�ticas). Han sido descritas como punto y comas programables. 
-Se comportan como una l�nea de ensamblaje, en las que un objeto transporta datos entre unidades funcionales que hacen transformaciones en cada paso.
-En programacion funcional es un patron de dise�o para construir tipos gen�ricos.
+Un decorator que obedece a ciertas reglas. Permite concatenar llamadas; procesar datos en una secuencia de pasos (tuberias inform�ticas). 
+Han sido descritas como punto y comas programables. 
+Se comportan como una línea de ensamblaje, en las que un objeto transporta datos entre unidades funcionales que hacen transformaciones en cada paso.
+En programacion funcional es un patron de diseño para construir tipos genéricos.
 
-** En inform�tica, una tuber�a (pipe, cauce o '|') consiste en una cadena de procesos conectados de forma tal que la salida de cada elemento de la cadena es la entrada del pr�ximo. Permiten la comunicaci�n y sincronizaci�n entre procesos.
+** En informática, una tuber�a (pipe, cauce o '|') consiste en una cadena de procesos conectados de forma tal que la salida de cada elemento
+de la cadena es la entrada del próximo. Permiten la comunicació y sincronización entre procesos.
 
 
 ¿Que son los Streams?
