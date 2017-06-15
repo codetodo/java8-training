@@ -12,6 +12,7 @@ de la misma clase que se recibe como parámetro en el m�todo de la functional 
 
 (obj, arg) -> obj.doSomething(arg) 
 
+
 Streams
 =======
 
