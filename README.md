@@ -67,6 +67,10 @@ El collector es el paso final en la linea de ensamblaje y marca como va a quedar
 
 Transforma cada elemento del Stream en otro Stream de objetos.
 
+**Reduce**
+
+Combina todos los elementos del stream en un solo resultado.
+
 
 
 

@@ -1,4 +1,4 @@
-package com.codetodo.java8.training.stream;
+package com.codetodo.java8.training.stream.operation.collect;
 
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;
@@ -10,6 +10,8 @@ import java.util.stream.Collectors;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import com.codetodo.java8.training.stream.operation.collect.Person;
 
 public class CollectOperationTest {
 

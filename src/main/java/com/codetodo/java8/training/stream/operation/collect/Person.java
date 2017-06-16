@@ -1,4 +1,4 @@
-package com.codetodo.java8.training.stream;
+package com.codetodo.java8.training.stream.operation.collect;
 
 import java.io.Serializable;
 
