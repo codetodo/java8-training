@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 import org.junit.Before;
 import org.junit.Test;
 
-public class AdvancedOperationsTest {
+public class CollectOperationTest {
 
 	List<Person> persons;
 
