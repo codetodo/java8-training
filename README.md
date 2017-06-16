@@ -38,3 +38,19 @@ Pueden ser intermediate (return a stream) o terminal (void or return a non-strea
 
 ### kind of Streams
 
+La instancia de un Stream se puede obtener a partir de varias fuentes de datos, principalmente de colecciones. A través de los métodos stream() y parallelStream() se puede crear un Stream secuencial o paralelo.
+
+Para trabajar con los tipos primitivos int, long y double java trae los stream: IntStream, LongStream y DoubleStream.
+
+Utilizando IntStream.range() se puede remplazar el ciclo for:
+
+```
+IntStream.range(1, 4)
+    .forEach(System.out::println);
+
+// 1
+// 2
+// 3
+```
+
+
