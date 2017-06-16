@@ -37,3 +37,4 @@ Pueden ser intermediate (return a stream) o terminal (void or return a non-strea
 
 
 ### kind of Streams
+
