@@ -36,7 +36,7 @@ Los Stream en Java 8 son monadas. Un Stream representa una secuencia de elemento
 Pueden ser intermediate (return a stream) o terminal (void or return a non-stream result).
 
 
-### kind of Streams
+### Tipos de Streams
 
 La instancia de un Stream se puede obtener a partir de varias fuentes de datos, principalmente de colecciones. A través de los métodos stream() y parallelStream() se puede crear un Stream secuencial o paralelo.
 
