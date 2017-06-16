@@ -40,17 +40,109 @@ Pueden ser intermediate (return a stream) o terminal (void or return a non-strea
 
 La instancia de un Stream se puede obtener a partir de varias fuentes de datos, principalmente de colecciones. A través de los métodos stream() y parallelStream() se puede crear un Stream secuencial o paralelo.
 
-Para trabajar con los tipos primitivos int, long y double java trae los stream: IntStream, LongStream y DoubleStream.
+Para trabajar con los tipos primitivos int, long y double java trae los Stream: IntStream, LongStream y DoubleStream.
 
 Utilizando IntStream.range() se puede remplazar el ciclo for:
 
 ```
-IntStream.range(1, 4)
+IntStream.range(2, 5)
     .forEach(System.out::println);
 
-// 1
 // 2
 // 3
+// 4
 ```
+
+Estos Stream de tipos primitivos soportan las operaciones finales: sum() y average().
+
+
+### Operations
+
+Collect
+
+Con esta operación se puede recoger el resultado de la ejecución del Stream y almacenarlo en un tipo final. 
+El collector es el paso final en la linea de ensamblaje y marca como va a quedar el producto final.
+
+FlatMap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
