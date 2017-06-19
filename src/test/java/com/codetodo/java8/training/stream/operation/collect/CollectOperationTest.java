@@ -25,7 +25,7 @@ public class CollectOperationTest {
 
 	@Test
 	public void testCollectToList() {
-		System.out.println("# Test Collect (toList)");
+		System.out.println("** Test Collect (toList)");
 
 		List<Person> filtered = persons.stream().filter(p -> p.getName().startsWith("P")).collect(Collectors.toList());
 
@@ -34,7 +34,7 @@ public class CollectOperationTest {
 
 	@Test
 	public void testCollectToMap() {
-		System.out.println("# Test Collect (groupingBy)");
+		System.out.println("** Test Collect (groupingBy)");
 
 		Map<Integer, List<Person>> personsByAge = persons.stream().collect(Collectors.groupingBy(p -> p.getAge()));
 
@@ -43,7 +43,7 @@ public class CollectOperationTest {
 
 	@Test
 	public void testCollectToDouble() {
-		System.out.println("# Test Collect (averagingInt)");
+		System.out.println("** Test Collect (averagingInt)");
 
 		Double averageAge = persons.stream().collect(Collectors.averagingInt(p -> p.getAge()));
 
@@ -52,7 +52,7 @@ public class CollectOperationTest {
 
 	@Test
 	public void testCollectToIntSummaryStatistics() {
-		System.out.println("# Test Collect (summarizingInt)");
+		System.out.println("** Test Collect (summarizingInt)");
 
 		IntSummaryStatistics ageSummary = persons.stream().collect(Collectors.summarizingInt(p -> p.getAge()));
 
@@ -61,7 +61,7 @@ public class CollectOperationTest {
 
 	@Test
 	public void testMyOwnCollector() {
-		System.out.println("# Test Collect (own collector)");
+		System.out.println("** Test Collect (own collector)");
 		
 		Collector<Person, StringJoiner, String> personNameCollector = Collector.of(() -> new StringJoiner(" | "), // supplier initially constructs such a StringJoiner with the appropriate delimiter.
 				(j, p) -> j.add(p.getName().toUpperCase()), // accumulator is used to add each persons upper-cased name to the StringJoiner.

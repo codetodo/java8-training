@@ -62,6 +62,7 @@ Estos Stream de tipos primitivos soportan las operaciones finales: sum() y avera
 
 Con esta operación se puede recoger el resultado de la ejecución del Stream y almacenarlo en un tipo final. 
 El collector es el paso final en la linea de ensamblaje y marca como va a quedar el producto final.
+Es como implementarle un return al stream.
 
 **FlatMap**
 
