@@ -13,7 +13,9 @@ la referencia al método.
 Como referencia a un método se puede usar, en la forma Class::instanceMethod, un método de instancia
 de la misma clase que se recibe como parámetro en el método de la functional interface, siempre que retornen el mismo tipo. 
 
+```
 (obj, arg) -> obj.doSomething(arg) 
+```
 
 
 ## Streams
