@@ -5,7 +5,9 @@
 
 Otra forma de escribir la implementación de una interfaz menos verbosa, más concisa y fácil de leer. 
 
-El tipo donde se usen tiene que ser una Functional Interface.
+El tipo donde se usen tiene que ser una Functional Interface. Each functional interface has a single abstract method, 
+called the functional method for that functional interface, to which the lambda expression's parameter and return
+types are **matched or adapted**.
 
 En lugar de usar una clase anonima se puede usar una expresión lambda y si en ésta sólo se llama a un método entonces se puede usar
 la referencia al método.
