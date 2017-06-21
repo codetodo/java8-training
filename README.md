@@ -13,7 +13,7 @@ En lugar de usar una clase anonima se puede usar una expresión lambda y si en �
 la referencia al método.
 
 Como referencia a un método se puede usar, en la forma Class::instanceMethod, un método de instancia
-de la misma clase que se recibe como parámetro en el método de la functional interface, siempre que retornen el mismo tipo. 
+de la misma clase que se recibe como parámetro en el functional method. 
 
 ```
 (obj, arg) -> obj.doSomething(arg) 
