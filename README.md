@@ -1,1 +1,1 @@
-This is a project to study Java 8.
+# This is a project to study Java 8.
