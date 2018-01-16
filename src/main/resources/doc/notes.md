@@ -26,7 +26,7 @@ de la clase que se recibe como parámetro en el functional method.
 
 **Patrón de diseño que permite componer funciones decorando (extender, añadir comportamiento) el resultado.**
 
-Un decorator que obedece a ciertas reglas. Permite concatenar llamadas; procesar datos en una secuencia de pasos (tuberias informáticas). 
+Un decorator que obedece a ciertas reglas (leyes monádicas). Permite concatenar llamadas; procesar datos en una secuencia de pasos (tuberias informáticas). 
 Han sido descritas como punto y comas programables. 
 Se comportan como una línea de ensamblaje, en las que un objeto transporta datos entre unidades funcionales que hacen transformaciones en cada paso.
 
