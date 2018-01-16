@@ -34,9 +34,15 @@ Se comportan como una línea de ensamblaje, en las que un objeto transporta dato
 de la cadena es la entrada del próximo. Permiten la comunicació y sincronización entre procesos.
 
 
+Funciones:
+
+- *of*: Crea una mónada de un tipo *T*.
+- *unit*: Acepta un valor *X* y devuelve la mónada asociada a *X* o que contiene a *X*.
+- *bind*: Acepta una función que recibe un *T* y devuelve una mónada de un tipo nuevo *U*.
+
 ### ¿Que son los Streams?
 
-Los Stream en Java 8 son monadas. Un Stream representa una secuencia de elementos y diferentes tipos de operaciones a aplicar sobre estos elementos.
+Los Stream en Java 8 son mónadas. Un Stream representa una secuencia de elementos y diferentes tipos de operaciones a aplicar sobre estos elementos.
 
 Pueden ser intermediate (return a stream) o terminal (void or return a non-stream result).
 
