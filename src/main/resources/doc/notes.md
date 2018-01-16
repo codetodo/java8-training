@@ -31,7 +31,7 @@ Han sido descritas como punto y comas programables.
 Se comportan como una línea de ensamblaje, en las que un objeto transporta datos entre unidades funcionales que hacen transformaciones en cada paso.
 
 ** En informática, una tubería (pipe, cauce o '|') consiste en una cadena de procesos conectados de forma tal que la salida de cada elemento
-de la cadena es la entrada del próximo. Permiten la comunicació y sincronización entre procesos.
+de la cadena es la entrada del próximo. Permiten la comunicación y sincronización entre procesos.
 
 
 Funciones:
